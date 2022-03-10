@@ -1,0 +1,80 @@
+.banner {
+  background: url('https://i.ibb.co/HPNcsTt/839cd4d69cdddc0de8d928bdcf4b8039.jpg') no-repeat
+  center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: rgb(0, 0, 0);
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner:after{
+  content:'';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(240, 153, 252, 0.2);
+}
+
+nav .search_box{
+  display: flex;
+  margin: auto;
+  height: 35px;
+  line-height: 35px;
+}
+nav .search_box input{
+  border: none;
+  outline: none;
+  background: #fff;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 20px;
+  width: 350px;
+}
+nav .search_box span{
+  color:blueviolet;
+  font-size: 20px;
+  background:#fff;
+  height: 100%;
+  padding: 8px;
+  position:relative;
+  cursor: pointer;
+  z-index: 1;
+
+}
+
+footer {
+  padding: 50px 0px 50px 0px;
+  background-color: #343a40;
+  color: #fff;
+  
+}
+footer .layar-dalam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .layar-dalam div {
+  width: 20%;
+}
+footer .layar-dalam h5 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
